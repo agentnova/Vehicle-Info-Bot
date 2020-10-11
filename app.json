@@ -1,0 +1,29 @@
+{
+  "name": "Vehicle Info Bot",
+  "description": "A telegram bot which gather all possible information about an indian Vehicle registration number",
+  "repository": "https://github.com/agentnova/Vehicle-Info-Bot",
+  "logo": "https://raw.githubusercontent.com/agentnova/Vehicle-Info-Bot/master/logo.jpg",
+  "keywords": ["telegram","telegram bot","bot","pyrogram","vehicle info","information gathering","mvd bot",vehicle],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Your bot token from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Get this value from my.telegram.org! Please do not steal",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-google-chrome"
+    },
+    {
+    "url":"https://github.com/heroku/heroku-buildpack-chromedriver"
+    }
+  ]
+}
