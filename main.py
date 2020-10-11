@@ -8,14 +8,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, ForceRepl
 from pyrogram import Client, filters
 from process import check, get_captcha, sort
 import os, re
+from creds import cred
 
 app = Client(
-    "vehict",
-    api_id="93",
-    api_hash="a5a734adc5898831d7",
-    bot_token="1080Hx-Yq6E-GKsiwzCO8iI"
+    "Vehicle-Info-Bot",
+    api_id=cred.API_ID,
+    api_hash=cred.API_HASH,
+    bot_token=cred.BOT_TOKEN
 )
-
 
 @app.on_message(filters.command(["start"]))
 def start(client, message):
