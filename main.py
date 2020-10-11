@@ -10,10 +10,10 @@ from process import check, get_captcha, sort
 import os, re
 
 app = Client(
-    "vehiclebot",
-    api_id="988003",
-    api_hash="a5a734ad1a84a7e62c21f7c5898831d7",
-    bot_token="1080053389:AAEQAWj79QxS5TeYHx-Yq6E-GKsiwzCO8iI"
+    "vehict",
+    api_id="93",
+    api_hash="a5a734adc5898831d7",
+    bot_token="1080Hx-Yq6E-GKsiwzCO8iI"
 )
 
 
