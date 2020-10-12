@@ -18,7 +18,7 @@ Mozilla Public License for more details.
 
 #### The Easy Way
 
-Deploy it to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/agentnova/Vehicle-Info-Bot/blob/main)
 
 #### The Legacy Way
 Simply clone the repository and run the main file:
