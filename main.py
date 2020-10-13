@@ -103,15 +103,12 @@ def errr(client, message):
             message.delete()
             repl.delete()
             client.send_photo(chat_id=message.chat.id, photo="final.jpg", caption=f"{response}")
-            driver.quit()
         except:
             message.delete()
             repl.edit("__Reg.no does not exist or wrong captcha entered__")
         finally:
-            if driver:
-                driver.quit()
-            else:
-                pass
+            driver.quit()
+        
 
 
 app.run()
